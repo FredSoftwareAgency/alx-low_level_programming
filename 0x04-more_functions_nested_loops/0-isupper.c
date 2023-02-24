@@ -1,19 +1,18 @@
 #include "main.h"
 
- /**
-  * _isdigit - checks if a number is adigit
-  * @c: any character
-  *
-  * Return: 1 if c is a digit 0 otherwise
-  */
- int _isdigit(int c)
- {
-         if (c >= 48 && c <= 57)
-         {
-                 return (1);
-         }
-         else
-         {
-                 return (0);
-         }
- }
+/**
+ * _isupper - checks if c is uppercase
+ * @c: any integer
+ * Return: 1 if is upper 0 if otherwise
+ */
+int _isupper(int c)
+{
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}
